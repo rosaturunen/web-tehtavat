@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Rosan html sivu</title>
+
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+    h3 {
+      color: green;
+    }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="alert alert-info" role="alert">
+  A simple info alert—check it out!
+</div>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+  <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+  <h1>My Website</h1>
+  <nav class="responsive-nav">
+      <button class="menu-toggle">☰ Menu</button>
+      <ul class="nav-list">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  <nav>
+    <ul>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#contact">Location</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>This is a paragraph about me.</p>
+    <div class="flex-container">
+  <div class="box">Box 1</div>
+  <div class="box">Box 2</div>
+  <div class="box">Box 3</div>
+</div>
+  </section>
+  <div class="grid-container">
+  <div class="grid-item">1</div>
+  <div class="grid-item">2</div>
+  <div class="grid-item">3</div>
+  <div class="grid-item">4</div>
+  <div class="grid-item">5</div>
+  <div class="grid-item">6</div>
+</div>
+<div class="responsive-box">Resize the window to see the effect</div>
+
+<div class="responsive-container">
+      <div class="column">Responsive</div>
+      <img src="kisu.jpg" alt="Responsive Image" class="responsive-image">
+      <div class="column">Container</div>
+      <p>a paragraph inside responsive container</p>
+    </div>
+    <div class="media-query-box">Resize the window to see the effect</div>
+
+<div class="container text-center mt-4">
+  <div class="row">
+    <div class="col">
+      päällekäin
+      <button type="button" class="btn btn-outline-primary">Primary</button>
+    </div>
+    <div class="col">
+      eri kokoisella
+      <button type="button" class="btn btn-secondary">Secondary</button>
+    </div>
+    <div class="col">
+      näytöllä
+      <button type="button" class="btn btn-outline-success">Success</button>
+    </div>
+  </div>
+
+<div class="card mt-4" style="width: 18rem;">
+  <img src="kisu.jpg" class="card-img-top" alt="Card Image">
+  <div class="card-body">
+    <h3 class="card-title">Card Title</h3>
+    <p class="card-text">This is a simple card example using Bootstrap.</p>
+    <a href="#" class="btn btn-primary">Learn More</a>
+  </div>
+</div>
+
+</div>
+
+</main>
+<footer>
+  <p>Copyright 2025</p>
+</footer>
+
+    <h1 style="color: rgb(241, 89, 114);">Welcome To Rosa's Page</h1>
+    <p>
+        Olen Tradenomiopiskelija, tietojenkäsittelyn koulutusohjelmassa. Tykkään
+        kaikesta luovasta, kuten taiteesta ja musiikista.
+    </p>
+    <img src="omakuva.JPG" width="400" alt="kuvalinkki on rikki...">
+
+    <h2>Harrastukseni</h2>
+    <ul>
+        <li>Taide</li>
+        <li>Lenkkeily</li>
+        <li>Lumilautailu</li>
+    </ul>
+    <a href="https://www.hbomax.com/fi/fi">Visit hbomax </a>
+
+    <table>
+        <tr>
+            <th>Kurssi</th>
+            <th>status</th>
+        </tr>
+        <tr>
+            <td>Websivuston kehittäminen</td>
+            <td>Käynnissä</td>
+        </tr>
+        <tr>
+            <td>Liiketoimintaympäristöt</td>
+            <td>Käynnissä</td>
+        </tr>
+        <tr>
+            <td>Professional Communication in English</td>
+            <td>Käynnissä</td>
+        </tr>
+    </table>
+
+    <div class="content-box">
+        <h3>Hauska fakta</h3>
+        <p>Tiesitkö, että kissat pystyvät tekemään yli 100 erilaista ääntä?</p>
+    </div>
+
+    <div class="animation-box"></div>
+<h4 class="pseudo-otsikko">Kissan päiväsuunnitelma: </h4>
+<ul class="pseudo-list">
+        <li>Herätä omistaja antamaan ruokaa</li>
+        <li>Torkut</li>
+        <li>Lintujen bongaus</li>
+        <li>Zoomies</li>
+      </ul>
+
+      <img src="kisu.jpg" alt="kisu" class="filter-image">
+
+<blockquote class="quote">
+        Jos olet stressaantunut, katso kisua ja ota mallia: ota rento asento ja huolet pois!
+      </blockquote>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+    <button class="transition-button">Hover me</button>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
