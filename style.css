@@ -45,8 +45,10 @@ ul {
         font-style: italic;
         margin-bottom: 20px;
       }
+      /* hienosäätö:flex-wrap,kuvat mobiilissa allekkain. flexboxilla kuvat keskelle ja väliä 40px */
       .kuvapari {
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         gap: 40px;
       }
