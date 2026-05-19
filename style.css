@@ -73,3 +73,38 @@ ul {
       body.contactsivu {
         background-color: #e1dff1;
       }
+      /* karusellin muokkausta*/
+      .carousel-item {
+        height: 500px;
+        overflow: hidden;
+      }
+      /* Muuttaa karusellin kuvat samankokoisiksi ja pitää kuvasuhteen, jotta ne näyttävät yhtenäisiltä */
+      .carousel-item img {
+        height: 500px;
+        object-fit: cover;
+        width: 100%;
+      }
+      /* Mobiililaitteissa karusellin kuvat pienemmiksi, jotta ne mahtuvat paremmin näytölle */
+      @media (max-width: 767px) {
+        .carousel-item img {
+          height: 250px;
+          object-fit: cover;
+        }
+      }
+      body.portfoliosivu {
+        background-color: #e1dff1;
+      }
+      .portfolio-otsikko {
+        font-family: 'Courier New', Courier, monospace;
+        color: #0e06a3;
+        font-size: 2rem;
+    font-weight: bold;
+      }
+      .nappi-linkki {
+        font-family: 'Courier New', Courier, monospace;
+        color: #0e06a3;
+        font-size: 1rem;
+        font-weight: bold;
+        margin-top: 60px;
+      }
+  
