@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rosan websivu</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="aboutsivu">
+    <nav class="navbar navbar-expand-lg custom-navbar">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">NODE</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Etusivu</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="about.html">Meistä</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Yhteystiedot</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<main>
+<!-- nimetty väriä varten, keskitetty ja margin top-->
+<h1 class="erikois-otsikko text-center mt-3 display-6">Tutustu NODEn tekijöihin</h1>
+
+<!-- muokattu bootstrapin valmista listaa-->
+<ul class="text-center list-unstyled">
+  <li>NODE</li>
+  <li>Solmu, jossa ihminen ja data kohtaavat</li>
+  <li>Solmimme pitävän asiakassuhteen sinun ja asiakkaidesi välille</li>
+  <li>Näillä tavoilla:
+    <ul>
+      <li>Ajantasaisilla taidoilla</li>
+      <li>Innokkuudella</li>
+      <li>Modernilla näkökulmalla</li>
+    </ul>
+  </li>
+  <li>Avuksesi saat upean ja ajan hermoilla olevan tiimin</li>
+</ul>
+
+  <!-- käytetty d-felx ja flex-wrap, jotta kortit saadaan isolla näytöllä vierekkäin ja mobiilissa allekkain-->
+  <div class="d-flex flex-wrap gap-4 justify-content-center">
+
+<div class="card kuva-kortti mt-3 mb-3" style="width: 18rem;">
+  <img src="omakuva.JPG" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h1 class="card-title">Minä</h1>
+    <p class="card-text">Tradenomi, tietojenkäsittelijä. Digitaalinen markkinointi</p>
+    <a href="#" class="btn btn-primary">Portfolio</a>
+  </div>
+</div>
+<!-- kortin leveydeksi muutettu 35rem, jotta tekstille on enemmän tilaa ja se täyttää sivua, myös nimetty css varten-->
+<div class="card sininen-kortti mt-3 mb-3" style="width: 35rem;">
+  <div class="card-body">
+    <h2 class="card-title">NODEn ammattilaiset</h2>
+    <h3 class="card-subtitle mb-2 text-body-secondary">Tiimi joka edustaa uusimman sukupolven osaamista</h3>
+    <p class="card-text">NODEn sisällöntuottajat ovat opiskelijoita, jotka tarjoavat ammattitaitoa digitaaliseen markkinointiin. Opiskelijoina olemme omaksuneet alan uusimmat teknologiat ja menetelmät.
+      Tuomme markkinointiin ja sen suunnitteluun tuoretta näkökulmaa ja meillä on kyky vastata nykyajan digitaalisiin vaatimuksiin.</p>
+    <a href="index.html" class="card-link">Palvelut</a>
+    <p class="card-text mt-3"> 
+      NODEn tiimi kasvaa jatkuvasti, ja meillä on laaja verkosto lahjakkaita opiskelijoita, jotka tuovat erilaisia taitoja ja näkökulmia. Olemme sitoutuneet tarjoamaan parasta mahdollista palvelua asiakkaillemme, ja tiimimme monipuolisuus on yksi vahvuuksistamme.</p>
+
+    <a href="contact.html" class="card-link">Yhteystiedot</a>
+  </div>
+</div>
+</div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</main>
+</body>
+</html>
